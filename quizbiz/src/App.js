@@ -9,7 +9,9 @@ import QuizPicker from './components/QuizPicker';
 
 import aws_exports from './aws-exports';
 Amplify.configure(aws_exports);
-Amplify.Logger.LOG_LEVEL = 'INFO';
+Amplify.Logger.LOG_LEVEL = 'INFO'
+
+let test
 
 
 class App extends React.Component {
